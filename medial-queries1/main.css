@@ -1,3 +1,60 @@
-body {
-  background: blanchedalmond;
+.container {
+  display: flex;
+  flex-wrap: wrap;
 }
+header {
+  height: 20em;
+  border-style: solid;
+  width: 90%;
+}
+main {
+  height: 75em;
+  width: 90%;
+  border-style: solid;
+}
+
+footer {
+  height: 20em;
+  width: 90%;
+  border-style: solid;
+}
+main, footer, header {
+  margin: 1em;
+}
+
+
+@media (min-width:1000px) {
+.container {
+  display: flex;  
+    flex-direction: row;
+}
+
+header {
+  border-style: solid;
+  width: 90%;
+
+}
+
+main {
+  border-style: solid;
+  width: 67.3%;
+  
+  
+  
+}
+
+footer {
+  
+  border-style: solid;
+  width: 20.5%;
+  height: 75em;
+  
+ 
+}
+}
+
+
+
+
+  
+
